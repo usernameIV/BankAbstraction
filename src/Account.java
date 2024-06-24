@@ -34,7 +34,7 @@ public class Account implements iAccount{
         value = s.nextDouble();
         balance += value;
     }
-
+    @Override
     public void receive(double value) {
         balance += value;
     }
